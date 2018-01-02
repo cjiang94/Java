@@ -1,0 +1,13 @@
+For my method called search_loop I estimate that this method will use O(n).
+This is because there's three for-loops inside the method, but each of them only loops "one time" (Not for-loop in a for-loop).
+And that recursion is used, which I estimate will be O(n).
+
+
+For my method called calculate_time I estimate a running time with O(n²)-notation.
+This is caused by the double for-loop when we find latestStart and latestFinish.
+Also caused by the for-loop inside a while-loop when we find earliestStart and earliestFinish.
+
+The method print_all might be more complex. This is because the method calculate_time is called inside
+this method. And running time will be depending on running_time to finish before continuing in print_all.
+print_all also have two for-loops inside each other, continued by 2 single for-loops before the first loop ends.
+As for the two last for loops, these are not big. Therefore I don't think this method has more running time than O(n²).

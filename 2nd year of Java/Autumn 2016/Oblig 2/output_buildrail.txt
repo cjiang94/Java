@@ -1,0 +1,499 @@
+
+
+   ~~ Listing output for graph ~~
+Time: 0
+     Starting: 9
+     Current staff: 10
+Time: 3
+     Finished: 9
+     Starting: 10
+     Starting: 11
+     Starting: 12
+     Starting: 14
+     Starting: 16
+     Starting: 17
+     Current staff: 56
+Time: 4
+     Finished: 11
+     Starting: 18
+     Starting: 19
+     Starting: 20
+     Current staff: 64
+Time: 5
+     Finished: 10
+     Starting: 2
+     Current staff: 70
+Time: 12
+     Finished: 2
+     Current staff: 60
+Time: 16
+     Finished: 20
+     Starting: 23
+     Current staff: 61
+Time: 28
+     Finished: 14
+     Starting: 15
+     Current staff: 61
+Time: 29
+     Finished: 19
+     Current staff: 57
+Time: 33
+     Finished: 12
+     Starting: 13
+     Current staff: 57
+Time: 38
+     Finished: 16
+     Current staff: 45
+Time: 44
+     Finished: 18
+     Starting: 21
+     Current staff: 46
+Time: 46
+     Finished: 23
+     Starting: 26
+     Current staff: 48
+Time: 48
+     Finished: 15
+     Finished: 17
+     Starting: 22
+     Current staff: 29
+Time: 51
+     Finished: 13
+     Starting: 8
+     Current staff: 24
+Time: 59
+     Finished: 21
+     Starting: 24
+     Current staff: 26
+Time: 63
+     Finished: 8
+     Starting: 3
+     Current staff: 29
+Time: 64
+     Finished: 3
+     Finished: 22
+     Starting: 25
+     Current staff: 21
+Time: 66
+     Finished: 26
+     Current staff: 14
+Time: 119
+     Finished: 24
+     Starting: 4
+     Current staff: 13
+Time: 124
+     Finished: 25
+     Starting: 5
+     Starting: 27
+     Current staff: 22
+Time: 134
+     Finished: 4
+     Current staff: 16
+Time: 136
+     Finished: 5
+     Current staff: 10
+Time: 149
+     Finished: 27
+     Starting: 28
+     Starting: 29
+     Current staff: 20
+Time: 179
+     Finished: 28
+     Current staff: 10
+Time: 186
+     Finished: 29
+     Starting: 1
+     Starting: 6
+     Starting: 7
+     Starting: 30
+     Current staff: 29
+Time: 204
+     Finished: 7
+     Current staff: 23
+Time: 206
+     Finished: 1
+     Finished: 30
+     Starting: 31
+     Current staff: 13
+Time: 213
+     Finished: 6
+     Current staff: 7
+Time: 218
+     Finished: 31
+     Current staff: 0
+
+**** Shortest possible project execution is 218 ****
+
+
+=========Task 1=========
+Task name: Install-pavement
+Estimated time: 20
+Manpower: 10
+Earlier starting time: 186
+Earlier finishing time: 206
+Latest starting time: 198
+Latest finishing time: 218
+Crit: false
+Slack: 12
+Dependency edges for task 1 is: 28, 29, 
+
+=========Task 2=========
+Task name: Install-railing
+Estimated time: 7
+Manpower: 10
+Earlier starting time: 5
+Earlier finishing time: 12
+Latest starting time: 211
+Latest finishing time: 218
+Crit: false
+Slack: 206
+Dependency edges for task 2 is: 10, 
+
+=========Task 3=========
+Task name: Install-ticketmachine
+Estimated time: 1
+Manpower: 10
+Earlier starting time: 63
+Earlier finishing time: 64
+Latest starting time: 217
+Latest finishing time: 218
+Crit: false
+Slack: 154
+Dependency edges for task 3 is: 8, 
+
+=========Task 4=========
+Task name: Paint-tower-1-with-arch
+Estimated time: 15
+Manpower: 6
+Earlier starting time: 119
+Earlier finishing time: 134
+Latest starting time: 203
+Latest finishing time: 218
+Crit: false
+Slack: 84
+Dependency edges for task 4 is: 24, 
+
+=========Task 5=========
+Task name: Paint-tower-2
+Estimated time: 12
+Manpower: 6
+Earlier starting time: 124
+Earlier finishing time: 136
+Latest starting time: 206
+Latest finishing time: 218
+Crit: false
+Slack: 82
+Dependency edges for task 5 is: 25, 
+
+=========Task 6=========
+Task name: Paint-trusses
+Estimated time: 27
+Manpower: 6
+Earlier starting time: 186
+Earlier finishing time: 213
+Latest starting time: 191
+Latest finishing time: 218
+Crit: false
+Slack: 5
+Dependency edges for task 6 is: 28, 29, 
+
+=========Task 7=========
+Task name: Paint-cables-and-rods
+Estimated time: 18
+Manpower: 6
+Earlier starting time: 186
+Earlier finishing time: 204
+Latest starting time: 200
+Latest finishing time: 218
+Crit: false
+Slack: 14
+Dependency edges for task 7 is: 28, 29, 
+
+=========Task 8=========
+Task name: Put-lane-tunnel-and-intersection
+Estimated time: 12
+Manpower: 7
+Earlier starting time: 51
+Earlier finishing time: 63
+Latest starting time: 194
+Latest finishing time: 206
+Crit: false
+Slack: 143
+Dependency edges for task 8 is: 13, 15, 
+
+=========Task 9=========
+Task name: Setup-barrack
+Estimated time: 3
+Manpower: 10
+Earlier starting time: 0
+Earlier finishing time: 3
+Latest starting time: 0
+Latest finishing time: 3
+Crit: true
+Slack: 0
+Dependency edges for task 9 is: 
+
+=========Task 10=========
+Task name: Prepare-storage
+Estimated time: 2
+Manpower: 4
+Earlier starting time: 3
+Earlier finishing time: 5
+Latest starting time: 209
+Latest finishing time: 211
+Crit: false
+Slack: 206
+Dependency edges for task 10 is: 9, 
+
+=========Task 11=========
+Task name: Rig-ramspace-reinforcing
+Estimated time: 1
+Manpower: 4
+Earlier starting time: 3
+Earlier finishing time: 4
+Latest starting time: 8
+Latest finishing time: 9
+Crit: false
+Slack: 5
+Dependency edges for task 11 is: 9, 
+
+=========Task 12=========
+Task name: Build-tunnel
+Estimated time: 30
+Manpower: 12
+Earlier starting time: 3
+Earlier finishing time: 33
+Latest starting time: 146
+Latest finishing time: 176
+Crit: false
+Slack: 143
+Dependency edges for task 12 is: 9, 
+
+=========Task 13=========
+Task name: Clean-tunnel
+Estimated time: 18
+Manpower: 12
+Earlier starting time: 33
+Earlier finishing time: 51
+Latest starting time: 176
+Latest finishing time: 194
+Crit: false
+Slack: 143
+Dependency edges for task 13 is: 12, 
+
+=========Task 14=========
+Task name: Build-intersection
+Estimated time: 25
+Manpower: 12
+Earlier starting time: 3
+Earlier finishing time: 28
+Latest starting time: 149
+Latest finishing time: 174
+Crit: false
+Slack: 146
+Dependency edges for task 14 is: 9, 
+
+=========Task 15=========
+Task name: Clean-intersection
+Estimated time: 20
+Manpower: 12
+Earlier starting time: 28
+Earlier finishing time: 48
+Latest starting time: 174
+Latest finishing time: 194
+Crit: false
+Slack: 146
+Dependency edges for task 15 is: 14, 
+
+=========Task 16=========
+Task name: Build-towerfoundation-1
+Estimated time: 35
+Manpower: 12
+Earlier starting time: 3
+Earlier finishing time: 38
+Latest starting time: 14
+Latest finishing time: 49
+Crit: false
+Slack: 11
+Dependency edges for task 16 is: 9, 
+
+=========Task 17=========
+Task name: Build-towerfoundation-2
+Estimated time: 45
+Manpower: 12
+Earlier starting time: 3
+Earlier finishing time: 48
+Latest starting time: 3
+Latest finishing time: 48
+Crit: true
+Slack: 0
+Dependency edges for task 17 is: 9, 
+
+=========Task 18=========
+Task name: Make-armouring-tower-1
+Estimated time: 40
+Manpower: 4
+Earlier starting time: 4
+Earlier finishing time: 44
+Latest starting time: 9
+Latest finishing time: 49
+Crit: false
+Slack: 5
+Dependency edges for task 18 is: 11, 
+
+=========Task 19=========
+Task name: Make-armouring-tower-2
+Estimated time: 25
+Manpower: 4
+Earlier starting time: 4
+Earlier finishing time: 29
+Latest starting time: 23
+Latest finishing time: 48
+Crit: false
+Slack: 19
+Dependency edges for task 19 is: 11, 
+
+=========Task 20=========
+Task name: Make-armouring-arch
+Estimated time: 12
+Manpower: 4
+Earlier starting time: 4
+Earlier finishing time: 16
+Latest starting time: 144
+Latest finishing time: 156
+Crit: false
+Slack: 140
+Dependency edges for task 20 is: 11, 
+
+=========Task 21=========
+Task name: Encase-and-armour-tower-1
+Estimated time: 15
+Manpower: 5
+Earlier starting time: 44
+Earlier finishing time: 59
+Latest starting time: 49
+Latest finishing time: 64
+Crit: false
+Slack: 5
+Dependency edges for task 21 is: 16, 18, 
+
+=========Task 22=========
+Task name: Encase-and-armour-tower-2
+Estimated time: 16
+Manpower: 5
+Earlier starting time: 48
+Earlier finishing time: 64
+Latest starting time: 48
+Latest finishing time: 64
+Crit: true
+Slack: 0
+Dependency edges for task 22 is: 17, 19, 
+
+=========Task 23=========
+Task name: Encase-and-armour-arch
+Estimated time: 30
+Manpower: 5
+Earlier starting time: 16
+Earlier finishing time: 46
+Latest starting time: 156
+Latest finishing time: 186
+Crit: false
+Slack: 140
+Dependency edges for task 23 is: 20, 
+
+=========Task 24=========
+Task name: Cast-tower-1
+Estimated time: 60
+Manpower: 7
+Earlier starting time: 59
+Earlier finishing time: 119
+Latest starting time: 64
+Latest finishing time: 124
+Crit: false
+Slack: 5
+Dependency edges for task 24 is: 21, 
+
+=========Task 25=========
+Task name: Cast-tower-2
+Estimated time: 60
+Manpower: 7
+Earlier starting time: 64
+Earlier finishing time: 124
+Latest starting time: 64
+Latest finishing time: 124
+Crit: true
+Slack: 0
+Dependency edges for task 25 is: 22, 
+
+=========Task 26=========
+Task name: Cast-arch
+Estimated time: 20
+Manpower: 7
+Earlier starting time: 46
+Earlier finishing time: 66
+Latest starting time: 186
+Latest finishing time: 206
+Crit: false
+Slack: 140
+Dependency edges for task 26 is: 23, 
+
+=========Task 27=========
+Task name: Stretch-two-maincables
+Estimated time: 25
+Manpower: 10
+Earlier starting time: 124
+Earlier finishing time: 149
+Latest starting time: 124
+Latest finishing time: 149
+Crit: true
+Slack: 0
+Dependency edges for task 27 is: 24, 25, 
+
+=========Task 28=========
+Task name: Build-truss-1-with-rods
+Estimated time: 30
+Manpower: 10
+Earlier starting time: 149
+Earlier finishing time: 179
+Latest starting time: 156
+Latest finishing time: 186
+Crit: false
+Slack: 7
+Dependency edges for task 28 is: 27, 
+
+=========Task 29=========
+Task name: Build-truss-2-with-rods
+Estimated time: 37
+Manpower: 10
+Earlier starting time: 149
+Earlier finishing time: 186
+Latest starting time: 149
+Latest finishing time: 186
+Crit: true
+Slack: 0
+Dependency edges for task 29 is: 27, 
+
+=========Task 30=========
+Task name: Cast-lane-on-truss
+Estimated time: 20
+Manpower: 7
+Earlier starting time: 186
+Earlier finishing time: 206
+Latest starting time: 186
+Latest finishing time: 206
+Crit: true
+Slack: 0
+Dependency edges for task 30 is: 28, 29, 
+
+=========Task 31=========
+Task name: Polish-lane-on-arch
+Estimated time: 12
+Manpower: 7
+Earlier starting time: 206
+Earlier finishing time: 218
+Latest starting time: 206
+Latest finishing time: 218
+Crit: true
+Slack: 0
+Dependency edges for task 31 is: 30, 26, 8, 
+

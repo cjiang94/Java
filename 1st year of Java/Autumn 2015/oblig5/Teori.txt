@@ -1,0 +1,18 @@
+Teori.txt
+
+Gi korte svar på spørsmålene under:
+
+a) Hva er innkapsling? Hvorfor er det nyttig?
+Innkapsling er det samme som å sette private variabler i en klasse. Det er nyttig hvis man har lyst til at disse variablene er "standard"  for klassen,
+og ikke skal bli endret av andre klasser. Dette forhindrer errors som ellers ville oppstått på grunn av f.eks. ulovlige verdier.
+
+b) Hva er grensesnittet til en klasse? Hvordan skiller det seg fra implementasjonen
+av en klasse?
+Grensesnitt er offentlige metoder i en klasse, som ikke nødvendigvis er ferdigskrevet.
+Mens implementasjon er en ferdigskrevet metode som er klar til å f.eks. returnere verdier til main-klassen.
+
+c) Hva er en instansmetode og hvordan skiller den seg fra en statisk metode
+(slike metoder vi har jobbet med tidligere)?
+Instansmetoder er metoder som brukes på nye forekomster av klassen (objekter). I Oppgave51 er f.eks. minBMW en instans av Bil. Og her skriver man minBil.metode().
+Mens statiske metoder er metoder som ikke brukers på instanser men på klassen selv. F.eks. Bil.metode().
+Dette gjør det lettere å skille variabler og metoder fra objektet (minBMW) og klassen (Bil).

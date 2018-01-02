@@ -1,0 +1,16 @@
+  Oppgave 2.4 A
+Kjørefeil: Er når kompilatoren finner feil eller svakhet i kompilasjonen. (javac som finner feil)
+Kjøretidsfeil: Er når en ugyldig situasjon oppstår under kjøringen. (java som finner feil)
+
+  Oppgave 2.4 B
+1) Jeg leser ovenifra ned på feilmeldingene jeg får fram, og ser at feilen ligger i linje 1. Deretter sier feilmeldingen
+at det er "class" som er forventet, mens jeg har skrevet class med stor C. Dette påpeker også feilmeldingen med en ^ som peker
+på den store C jeg har skrevet.
+Så jeg forandrer Class til class for å rette feilen.
+
+2) Kompileringen viser to feil, fordi feilen i linje 2 "void" er en etterfølgende feil av den opprinnelige feilen vår "Class".
+Så etter å ha rettet opp Class til class, så vil feilmeldingen over void bli borte.
+
+3) Her ser vi at kompileringsfeilen ligger i linje 3, og sier at ";" er forventet der hvor den peker med en ^.
+Hvis vi ser på linje 3, ser vi at vi har glemt å "lukke" linjen man har skrevet med en semikolon. Så feilen ligger i at vi har
+glemt en semikolon på slutten av linjen. Så vi fikser feilen ved å legge til en ; på slutten av linjen vår.

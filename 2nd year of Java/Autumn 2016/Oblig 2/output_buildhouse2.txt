@@ -1,0 +1,3 @@
+
+
+This graph contains a loop: 1, 2, 3, 6, 1, 

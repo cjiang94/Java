@@ -1,0 +1,135 @@
+
+
+   ~~ Listing output for graph ~~
+Time: 0
+     Starting: 5
+     Current staff: 2
+Time: 4
+     Finished: 5
+     Starting: 1
+     Starting: 6
+     Current staff: 4
+Time: 6
+     Finished: 6
+     Current staff: 2
+Time: 8
+     Finished: 1
+     Starting: 2
+     Current staff: 4
+Time: 14
+     Finished: 2
+     Starting: 3
+     Starting: 4
+     Starting: 7
+     Current staff: 7
+Time: 15
+     Finished: 3
+     Finished: 4
+     Current staff: 2
+Time: 18
+     Finished: 7
+     Starting: 8
+     Current staff: 4
+Time: 22
+     Finished: 8
+     Current staff: 0
+
+**** Shortest possible project execution is 22 ****
+
+
+=========Task 1=========
+Task name: Build-walls
+Estimated time: 4
+Manpower: 2
+Earlier starting time: 4
+Earlier finishing time: 8
+Latest starting time: 4
+Latest finishing time: 8
+Crit: true
+Slack: 0
+Dependency edges for task 1 is: 5, 
+
+=========Task 2=========
+Task name: Build-roofs
+Estimated time: 6
+Manpower: 4
+Earlier starting time: 8
+Earlier finishing time: 14
+Latest starting time: 8
+Latest finishing time: 14
+Crit: true
+Slack: 0
+Dependency edges for task 2 is: 1, 
+
+=========Task 3=========
+Task name: Put-on-wallpapers
+Estimated time: 1
+Manpower: 2
+Earlier starting time: 14
+Earlier finishing time: 15
+Latest starting time: 17
+Latest finishing time: 18
+Crit: false
+Slack: 3
+Dependency edges for task 3 is: 1, 2, 
+
+=========Task 4=========
+Task name: Put-on-tiles
+Estimated time: 1
+Manpower: 3
+Earlier starting time: 14
+Earlier finishing time: 15
+Latest starting time: 21
+Latest finishing time: 22
+Crit: false
+Slack: 7
+Dependency edges for task 4 is: 2, 
+
+=========Task 5=========
+Task name: Build-foundation
+Estimated time: 4
+Manpower: 2
+Earlier starting time: 0
+Earlier finishing time: 4
+Latest starting time: 0
+Latest finishing time: 4
+Crit: true
+Slack: 0
+Dependency edges for task 5 is: 
+
+=========Task 6=========
+Task name: Make-floor
+Estimated time: 2
+Manpower: 2
+Earlier starting time: 4
+Earlier finishing time: 6
+Latest starting time: 12
+Latest finishing time: 14
+Crit: false
+Slack: 8
+Dependency edges for task 6 is: 5, 
+
+=========Task 7=========
+Task name: Put-carpet-floor
+Estimated time: 4
+Manpower: 2
+Earlier starting time: 14
+Earlier finishing time: 18
+Latest starting time: 14
+Latest finishing time: 18
+Crit: true
+Slack: 0
+Dependency edges for task 7 is: 6, 2, 
+
+=========Task 8=========
+Task name: Move-in
+Estimated time: 4
+Manpower: 4
+Earlier starting time: 18
+Earlier finishing time: 22
+Latest starting time: 18
+Latest finishing time: 22
+Crit: true
+Slack: 0
+Dependency edges for task 8 is: 3, 7, 
+

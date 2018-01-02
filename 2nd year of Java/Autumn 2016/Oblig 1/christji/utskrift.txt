@@ -1,0 +1,56 @@
+The different statistics:
+	Dybde paa treet er: 36
+	Antall noder for hver dybde [Dybde-Antall node(r)]: [0=1, 1=2, 2=4, 3=8, 4=16, 5=32, 6=64, 7=121, 8=218, 9=383, 10=628, 11=990, 12=1513, 13=2208, 14=2949, 15=3889, 16=4772, 17=5671, 
+	18=6251, 19=6689, 20=6692, 21=6450, 22=5884, 23=5101, 24=4244, 25=3254, 26=2395, 27=1789, 28=1177, 29=705, 30=429, 31=236, 32=138, 33=60, 34=25, 35=9, 36=3]
+	Gjennomsnittsdybde paa treet er: 19.6506
+	Forste ord i listen er: abactinally
+	Siste ord i listen er: darndests
+
+Spell-check of these words:
+- achiev
+	Mente du:
+	"achive"?
+
+	"achier"?
+
+	"achieve"?
+
+	Antall losninger som ga et positivt svar: 3
+
+	Tiden det tok for soket (i nanosekunder): 3
+
+- achiese
+	Mente du:
+	"achieve"?
+
+	"achiest"?
+
+	"achinese"?
+
+	Antall losninger som ga et positivt svar: 3
+	
+	Tiden det tok for soket (i nanosekunder): 3
+
+- achievee
+	Mente du:
+	"achieved"?
+
+	"achiever"?
+
+	"achieves"?
+
+	"achieve"?
+
+	"achieve"?
+
+	Antall losninger som ga et positivt svar: 4
+	
+	Tiden det tok for soket (i nanosekunder): 4
+
+- ahcieve
+	Mente du:
+	"achieve"?
+
+	Antall losninger som ga et positivt svar: 1
+
+	Tiden det tok for soket (i nanosekunder): 1
